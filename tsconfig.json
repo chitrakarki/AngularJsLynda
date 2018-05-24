@@ -1,0 +1,13 @@
+{ // this file determines how our typescript will be converted into regular javascript for us using es5
+	"compilerOptions": {
+		"target": "es5",
+		"module": "system",
+		"moduleResolution": "node",
+		"sourceMap": "true",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": false,
+		"noImplicitAny": false,
+		"suppressImplicitAnyIndexErrors": true
+	}
+}
